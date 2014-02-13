@@ -1,3 +1,8 @@
 ngx_addon_name=ngx_core_widget_module
 HTTP_MODULES="$HTTP_MODULES ngx_core_widget_module"
 NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_core_widget_module.c"
+
+ngx_addon_name=ngx_http_widget_module
+HTTP_MODULES="$HTTP_MODULES ngx_http_widget_module"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_widget_module.c"
+
