@@ -1,4 +1,4 @@
-Introduction
+About
 ====
 This module is collection of small and useful nginx add-ons.
 
